@@ -33,12 +33,16 @@ h4{
     margin-right: 0.3em;
 }
 
+h3 span{
+    font-size: 1.2rem;
+    color: honeydew;
+}
+
 .main-container{
     width: 100%;
     max-width: 400px;
     height: 100vh;
     border: 5px solid #fff;
-    border-radius: 5px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -58,21 +62,36 @@ img{
     width: 100%;
 }
 
+.comp{
+    align-self: baseline;
+    margin-left: 0.3em;
+    margin-bottom: 0;
+}
+
+.my{
+    align-self: end;
+    margin-right: 0.3em;
+    margin-top: 0;
+}
+
 #cards{
     display: flex;
-    flex-direction: column;
+    width: 90%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
 }
 
 .card-place{
-    border: 2px solid #fff;
-    width: 100px;
-    height: 140px;
+    border: 2px solid rgb(231, 169, 13);
+    width: 120px;
+    height: 160px;
     border-radius: 5px;
 }
 
-.card-place:first-child{
+/* .card-place:first-child{
     margin-bottom: 1em;
-}
+} */
 
 #new-deck{
     padding: 0.5em 1em;
@@ -83,4 +102,10 @@ img{
 #draw-cards{
     width: 100%;
     padding: 0.5em;
+}
+
+button:disabled{
+    cursor: not-allowed;
+    background-color: #fff;
+    color: #f15f79;
 }
