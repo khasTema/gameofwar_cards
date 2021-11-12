@@ -83,15 +83,11 @@ img{
 }
 
 .card-place{
-    border: 2px solid rgb(231, 169, 13);
-    width: 120px;
-    height: 160px;
-    border-radius: 5px;
+    border: 4px solid rgb(231, 169, 13);
+    width: 122px;
+    height: 167px;
+    border-radius: 11px;
 }
-
-/* .card-place:first-child{
-    margin-bottom: 1em;
-} */
 
 #new-deck{
     padding: 0.5em 1em;
